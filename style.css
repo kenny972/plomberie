@@ -1,29 +1,165 @@
-/********************************************************First page*****************************************************************/
+/**
+{
+	margin: 0;
+	padding: 0;
+}*/
+
 
 body
 {
-	background-color: skyblue;
+	
+	/*#BAE0B4;
+	#E4F5B8;
+	DECED1;*/
 }
 
+/*star of header*/
 
 
 header
 {
+
+	background-image: url("entête.jpeg"); 
+
+}
+
+
+header figure
+{
+
+	display: inline-block;
+	float: left;
+}
+
+.header
+{
+	display:inline-block;
+	border: 15px blue outset;
+	background-color: skyblue;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	/*padding-top:2%;*/
+	vertical-align: right;
+	margin-left: 30%;
+
 	
-	margin-bottom: 3em;
 }
 
-section
+/*end of header*/
+
+
+
+
+/*img header*/
+img
 {
-	background-color: green;
+	height: 150px;
+	width: 150px;
+
 }
+/*end img header*/
 
 
 
 
-p
+
+/*star of nav*/
+nav
 {
-	background-color : white;
+	background-color: skyblue;
+	text-align: center;
+	padding:0.5em;
+	margin-bottom: 2em;
+	width: 100%;
+
+	/*text-align: center;*/
+
+}
+
+nav ul li
+{
+	display: inline-block; 
+
+}
+
+nav a
+{
+	text-align: left;
+	padding:6em;
+}
+/*end of nav*/
+
+
+aside
+{
+	
+	width: 20%;
+	
+
+}
+
+em
+{
+	font-style: italic;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+
+.Accueil ,aside
+{
+	display: inline-block;
+	padding-bottom: 90px;
+	vertical-align: top;
+
+}
+
+
+h3
+{
+	text-align: center;
+}
+
+h4
+{
+	text-align: center;
+}
+
+
+.Accueil 
+{
+	
+	
+	
+	width: 50%;
+	vertical-align: middle;
+	font-family:'Baloo Bhaina', cursive;
+	color: black;
+	/*color: purple;*/
+	margin-left: 10%;
+}
+
+
+strong
+{
+	font-weight: bold;
+}
+
+
+
+
+.photo
+{
+	float: right;
+	height: 200px;
+	text-align: right;
+	height: 150px;
+	width: 150px;
+
 }
 
 
@@ -31,16 +167,100 @@ p
 
 
 
-
-
-
-
-
-
-
-
+/*star of footer*/
 
 footer
 {
 	background-color: silver;
+	margin-top: 13%;
+	width: 80em;
+	
 }
+
+
+footer img
+{
+	background-color: silver;
+	height: 50px;
+	width: 50px;
+
+}
+
+/*end of footer*/
+
+
+
+/***********************************************************************************************************************************/
+/*************************************************************************************************************************************
+*******************************************************************Page services***************************************************
+************************************************************************************************************************************/
+h2
+{
+	text-align:center;
+	color: black;
+}
+
+.services
+{
+	
+	font-family:'Baloo Bhaina', cursive;
+	padding-bottom: 45em;
+	margin: auto;
+	width: 50%;
+}
+
+
+
+.services, .servicesaside
+{
+	display: inline-block;
+	padding-bottom: 90px;
+	vertical-align: 
+}
+
+
+
+/**********************************************************************************************************************************/
+/*************************************************************************************************************************************
+***************************************************************Page tarifs**********************************************************
+*************************************************************************************************************************************/
+table
+{
+	margin-left:30%;
+	padding:30px;
+}
+
+
+
+
+
+
+td, th /* bordure sur les td ET les th */
+
+{
+
+    border: 1px solid black;
+
+
+}
+
+
+
+{
+
+	text-align: left;
+	display: inline-block;
+}
+
+
+
+
+
+/*table
+{
+	border:solid;
+
+td, th
+{
+	border: solid;
+}*/

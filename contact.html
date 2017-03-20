@@ -6,23 +6,24 @@
 <meta charset="utf-8">
 	<title>Contacts</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
 </head>
 	
-	<!-- Star of header -->
- 		<header>
- 			<aside>
- 				<figure>
- 					<img src="plombier.jpeg" alt="Plomberie">
- 				</figure>
- 			</aside>	
+	 <!-- Star of header -->
+ 			<header>
+ 				
 
- 		<section>	
+ 		<section class="header">	
+ 		<!-- Changer le italic dans le css -->
  			<h1><em>Kégé Gangsta Plomberie</em></h1>
+ 			<!-- colorer les coordonnées en rouge -->
  			<p>01 rue du bo sanglant 10010 Plomberie-Rouge cedex<br>
- 			01.10.10.01.11.</p>	
- 			<h4>N° SIRET de l’établissement : 110010011 10011</h4>
+ 			Tél: 01.10.10.01.11.</p>	
+ 			<h4 style="color: darkgreen;">N° SIRET de l’établissement : 110010011 10011</h4>
  		</section>	
+ 			
  		</header>
+<!-- End of header -->
 <!-- End of header -->
 
 
@@ -31,14 +32,12 @@
 
 
 
-
-
-<nav>
+			<nav>
  			<ul>
  				<li><a href="index.html">Accueil</a></li>
- 				<li><a href="nostarifs.html">Nos tarifs</a></li>
- 				<li><a href="contact.html">Nous contacter</a></li>
- 				<li><a href="free.html">Donnez-nous votre avis</a></li>
+ 				<li><a href="tarifs.html">Tarifs</a></li>
+ 				<li><a href="services.html">Services</a></li>
+ 				<li><a href="contact.html">Contact</a></li>
  			</ul>
  		</nav>
 
@@ -49,6 +48,82 @@
 
 
 
+ 				<section class="contact">
+
+				<h2>Contact</h2>
+				<!-- changez la police -->
+
+				<!-- Cahngez la police -->
+				<p>Kégé Gangsta Plomberie<strong> est situé au , 11000 Carcassonne</strong>.</p>
+				<p>Vous pouvez venir nous visiter à cette adresse, ou nous joindre au 04 68 72 02 36, ou encore nous envoyer un mail <a href="mailto:kgenly972@gmail.com"> ici </a></p> 
+
+
+				<article>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10113.811679666445!2d3.1919312!3d50.6744174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6ae6585f5725be4!2sA.D.E.P.!5e0!3m2!1sfr!2sfr!4v1489997883615" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</article>	<br>
+
+				
+
+
+
+
+
+					<p style="color: blue"><strong>Enregistrez vous</strong></p><br>
+					<br>
+					
+					<p>Votre pseudo :</p>
+       				<label for="pseudo"></label>
+
+       				<input type="text" name="pseudo" id="pseudo" />
+
+      				<br />
+
+      				<p>Votre mot de passe :</p>
+       				<label for="pass"></label>
+
+       				<input type="password" name="pass" id="pass" /></p>
+       				</form></p>
+
+       				<form>
+
+						<p>Envoyer:</p>
+						<input type="submit"/>
+					</form>
+
+       				<br><br>
+       
+
+  					<!-- Changer la police -->
+  					<p style="color: blue"><strong>Inscription 100% gratuite</strong>:</p>
+					<br>
+
+
+
+		 			<form>
+						<p>nom:</p>
+						<input type="text"/>
+						
+					</form>
+
+					<form>
+						<p>Prénom:</p>
+						<input type="email"/>
+					</form>
+
+
+					<form>
+						 <p>Age:</p> 
+						 <input type="number"/>
+					</form>
+
+					<form>
+
+						<p>Envoyer:</p>
+						<input type="submit"/>
+					</form>	
+
+				</section>	
+
 
 
 
@@ -56,18 +131,24 @@
 
 
 <footer>
-		<figure>
-			<p><em>Vous pouvez également nous trouver sur les réseaux sociaux</em></p>
-			<img src="reseaux.jpeg">
-		</figure>
+		
 			<nav>
- 				<ul>
- 					<li><a href="index.html">Accueil</a></li>
- 					<li><a href="nostarifs.html">Nos tarifs</a></li>
- 					<li><a href="contact.html">Nous contacter</a></li>
- 					<li><a href="free.html">Donnez-nous votre avis</a></li>
- 				</ul>
- 			</nav>
+ 			<ul>
+ 				<li><a href="index.html">Accueil</a></li>
+ 				<li><a href="tarifs.html">Tarifs</a></li>
+ 				<li><a href="services.html">Services</a></li>
+ 				<li><a href="contact.html">Contact</a></li>
+ 			</ul>
+ 		</nav>
+
+ 			<!-- Css dans le html pour footer -->
+		<p style="font-style: italic;font-weight: bold;">Vous pouvez également nous trouver sur les réseaux sociaux:</p>
+		<!-- Fin de Css dans le html pour le footer -->
+		<figure>
+			<img src="fb.jpeg">
+			<img src="twitter.png">
+			<img src="in.png">
+		</figure>	
 </footer>
 
 </body>
